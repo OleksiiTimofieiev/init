@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#nslookup 10.51.1.253
+#NS->DNS->DHCP
+echo "Server type is DHCP" 

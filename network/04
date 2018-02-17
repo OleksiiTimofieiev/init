@@ -1,0 +1,3 @@
+#!/bin/bash
+# echo "******************04**********************";
+route -n get default | awk '/gateway/{print $2}'

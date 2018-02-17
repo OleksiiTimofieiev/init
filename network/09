@@ -1,0 +1,6 @@
+#!/bin/bash
+# "A\t" == tabulation
+# echo "******************09**********************";
+dig 42.fr | grep "A\t" | awk '/42.fr/{print $5}'
+
+# host 42.fr

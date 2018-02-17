@@ -1,0 +1,4 @@
+#!/bin/bash
+#includes my, termina, non terminal processes;
+
+ps aux

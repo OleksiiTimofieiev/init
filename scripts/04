@@ -1,0 +1,22 @@
+if [ `find $1 -maxdepth 0 -mmin -$2` ]
+then
+	mail -s "Hi Chorny" contrbas@gmail.com <<< "Yoyoyo, Hi Chorny :)"
+fi
+
+#!/bin/bash
+
+# [[ -z `find /home/spatel/ -mmin -60` ]]
+
+# if [ $? -eq 0 ]
+# then
+#     echo -e "nothing has changed"
+# else
+#     mail -s "file has been changed" spatel@example.com
+# fi
+
+
+# if [ $(( $(date +%s) - $(date +%s -r <file>) )) -le 180 ]; then
+#     echo "1"
+# else
+#     echo "2"
+# fi
