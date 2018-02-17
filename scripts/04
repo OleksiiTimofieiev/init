@@ -1,4 +1,4 @@
-sudo crontab -l > tmp_file
+sudo crontab -l > tmp
 echo "0 0 * * * \
  lines=\$(find /etc/crontab -mmin -1440 | wc -l) && \
  if [ \$lines -ne 0 ]; then \
