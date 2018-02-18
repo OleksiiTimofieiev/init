@@ -1,0 +1,32 @@
+*.c == * == a wildcard
+ls -R <- list the content of the subdirectories
+ln -s symbolic link == soft link
+cd - == go to previous directory
+echo == write arguments to the standard output
+cat -e == display content with non-printing characters
+more == display with up and down
+less == display with up and down
+tail -n == display lines
+head -n
+grep == find lines by criteria
+echo > replace
+echo >> add
+| = redirect output to the input of the other commands
+sort 
+cut 
+awk == delimit by field = columns;
+df == get the available disk space;
+sed == modifications with the standard flow
+tr == replace a character
+wc == number of words and files [-l]
+file == time of the file
+ifconfig = ip, Mac address 
+bc == calculate [reads from the standard input]
+find . == all files in the current directory */ also in the subdirectories
+-name "ls*"
+env == all binaries and scripts
+output: stand, error
+rm -rf == remove the file and all subdirectories
+vim with colors == https://mediatemple.net/community/products/dv/204644480/enabling-vi-syntax-colors
+set nu == show the number of the rows;
+syntax on == on the colors in vim;
